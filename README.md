@@ -3,12 +3,27 @@
 This repository contains some useful and reusable configuration files for
 the Thinkpad X230 (on Linux, mostly).
 
+### Generic config files
+Almost everything else is as generic as I was able to make it. I've taken some
+inspiration from Crunchbang (awesome distro btw) to add some Keybindings to
+Openbox. Crunchbang also used some handy scripts (e.g. the PythonGTK logout
+dialog) to make using the desktop less of a hurdle for beginners. I've taken a 
+lot from Cruchbang. To be honest, I started this as a way of implementing most
+of Crunchbang in Arch Linux. I know Archbang exists, but I'm more comfortable
+running just Arch, since Archbang could be considered a different distro
+altogether.
+
+I haven't had any issues so far and life has been much easier on the Arch side,
+so I really recommend any Archbang or Crunchbase users to give Arch a go!
+Installation can be slow but it's easy and straightforward. And this repo should
+also be of some help.
+
 ### Thinkpad X230 specific files
 Most config files can be reused and are not Thinkpad specific. Thinkpad specific
 files are mainly:
 
 * Kernel config: only necessary drivers are selected to be built into the
-  kernel [*] or loaded as modules [m]. All other drivers are ignored. This
+  kernel [\*] or loaded as modules [m]. All other drivers are ignored. This
   allows for quicker kernel compilation as most modules will be skipped. Other
   kernel settings that are enabled/disabled are purely based on personal choice.
   I'm usually using the `linux-ck` kernel (Linux Kernel with Con Kolivas'
@@ -38,20 +53,5 @@ files are mainly:
   over pulseaudio) to toggle / increase / decrease their respective channels.
   It works well for me but I can see how things could go south if used together
   with pulseaudio. Have that in mind.
-
-### Generic config files
-Almost everything else is as generic as I was able to make it. I've taken some
-inspiration from Crunchbang (awesome distro btw) to add some Keybindings to
-Openbox. Crunchbang also used some handy scripts (e.g. the PythonGTK logout
-dialog) to make using the desktop less of a hurdle for beginners. I've taken a 
-lot from Cruchbang. To be honest, I started this as a way of implementing most
-of Crunchbang in Arch Linux. I know Archbang exists, but I'm more comfortable
-running just Arch, since Archbang could be considered a different distro
-altogether.
-
-I haven't had any issues so far and life has been much easier on the Arch side,
-so I really recommend any Archbang or Crunchbase users to give Arch a go!
-Installation can be slow but it's easy and straightforward. And this repo should
-also be of some help.
 
 
