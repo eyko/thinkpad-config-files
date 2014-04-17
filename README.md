@@ -23,7 +23,7 @@ Most config files can be reused and are not Thinkpad specific. Thinkpad specific
 files are mainly:
 
 * Kernel config: only necessary drivers are selected to be built into the
-  kernel `[\*]` or loaded as modules `[m]`. All other drivers are ignored. This
+  kernel `[*]` or loaded as modules `[m]`. All other drivers are ignored. This
   allows for quicker kernel compilation as most modules will be skipped. Other
   kernel settings that are enabled/disabled are purely based on personal choice.
   I'm usually using the `linux-ck` kernel (Linux Kernel with Con Kolivas'
